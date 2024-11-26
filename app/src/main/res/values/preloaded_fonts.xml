@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/architects_daughter</item>
+        <item>@font/averia_serif_libre_bold_italic</item>
+        <item>@font/beth_ellen</item>
+        <item>@font/carter_one</item>
+        <item>@font/caveat</item>
+        <item>@font/chicle</item>
+        <item>@font/courgette</item>
+        <item>@font/dancing_script_bold</item>
+        <item>@font/montserrat_subrayada_bold</item>
+        <item>@font/oregano</item>
+        <item>@font/the_girl_next_door</item>
+        <item>@font/vidaloka</item>
+        <item>@font/vollkorn</item>
+    </array>
+</resources>

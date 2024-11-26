@@ -1,0 +1,223 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROID_UI WORK ALL FINAL DATA/VendiBite/MD_puro/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/ANDROID_UI WORK ALL FINAL DATA/VendiBite/MD_puro/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/ANDROID_UI WORK ALL FINAL DATA/VendiBite/MD_puro/app/src/main/res/layout/activity_terminal.xml" value="0.1" />
+        <entry key="..\:/ANDROID_UI WORK ALL FINAL DATA/VendiBite/MD_puro/app/src/main/res/layout/authorizationpopup.xml" value="0.1" />
+        <entry key="..\:/ANDROID_UI WORK ALL FINAL DATA/VendiBite/MD_puro/library/src/main/res/layout/dialog_devicelistitem.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_CafeCoffee/app/src/main/res/layout/activity_admin.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_CafeCoffee/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_CafeCoffee/app/src/main/res/layout/activity_menu.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_CafeCoffee/app/src/main/res/layout/activity_terminal.xml" value="0.184765625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_admin.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_free.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_led_control2.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_main.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_menu.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_passcode.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_payment.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_sliding_window.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/activity_terminal.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/authorizationpopup.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/cleanmachine.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/declinedpopup.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/dialog_header_success_yellow2.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/dialog_header_success_yellow6.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/dialog_header_success_yellowthankyou.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/dialog_warning.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/dishreadypopscreen.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/errorfound.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/inprocesspopscreen.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/ordercompleted.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/ordernamelist.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/outofservicepopscreen.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/pickdish.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/pleasewait.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/settingpopup.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/stockover.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/stockr.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/stockrefailed.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/thankyoupopscreen.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/transactioncancelpopup.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/transactionerror.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/transactionfailedpopup.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/BT Projects/Sk_kokukitchen/app/src/main/res/layout/transactionnotpopscreen.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_admin.xml" value="0.18" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_bluetooth.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_led_control2.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_main.xml" value="0.103125" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_menu.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_passcode.xml" value="0.18" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_payment.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_sliding_window.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/activity_terminal.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/authorizationpopup.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/declinedpopup.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/dialog_header_success_yellow.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/dialog_warning.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/dishreadypopscreen.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/errorfound.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/inprocesspopscreen.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/ordercompleted.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/ordernamelist.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/outofservicepopscreen.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/pairpopup.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/pickdish.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/pleasewait.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/settingpopup.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/stockover.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/stockrefailed.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/thankyoupopscreen.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/transactioncancelpopup.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/transactionerror.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/transactionfailedpopup.xml" value="0.116015625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/Complete code/B001/app/src/main/res/layout/transactionnotpopscreen.xml" value="0.16" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/drawable-v24/gray_rect.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/drawable-v24/rectangle.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/drawable/gray_rect.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/drawable/rect.xml" value="0.1685" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/drawable/rectangle.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/font/courgette.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/font/dancing_script_bold.xml" value="0.10130208333333333" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/layout/activity_admin.xml" value="0.12057291666666667" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/layout/activity_led_control2.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/layout/activity_main.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/layout/activity_menu.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/layout/activity_payment.xml" value="0.12057291666666667" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/layout/activity_terminal.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD06/app/src/main/res/layout/snf.xml" value="0.180859375" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/drawable-v24/gradient.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/drawable/edit_text.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/drawable/edittext.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/drawable/gradient.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/drawable/oval.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/drawable/yellow_text.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/font/convergence.xml" value="0.10130208333333333" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/activity_admin.xml" value="0.10026041666666667" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/activity_main.xml" value="0.13621399176954732" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/activity_menu.xml" value="0.115625" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/activity_terminal.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dialog_header_success_yellow.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dialog_header_success_yellow2.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dialog_header_success_yellow3.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dialog_header_success_yellow5.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dialog_header_success_yellow6.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dialog_header_success_yellowthankyou.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dialog_warning.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/dishreadypopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/inprocesspopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/insertbottle.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/ordercompleted.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/ordernamelist.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/outofservicepopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/pairpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/pickdish.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/pleasewait.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/settingpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/snf.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/stockover.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/stockr.xml" value="0.18" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/stockrefailed.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/thankyoupopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/transactioncancelpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/transactionerror.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/transactionfailedpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_Everse/app/src/main/res/layout/transactionnotpopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/drawable-v24/solid_color_shape.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/drawable/solid_color_shape.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/activity_admin.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/activity_menu.xml" value="0.18" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/activity_payment.xml" value="0.13621399176954732" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/activity_terminal.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dialog_header_success_yellow.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dialog_header_success_yellow2.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dialog_header_success_yellow3.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dialog_header_success_yellow5.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dialog_header_success_yellow6.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dialog_header_success_yellowthankyou.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dialog_warning.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/dishreadypopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/errorfound.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/inprocesspopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/ordercompleted.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/ordernamelist.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/outofservicepopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/pairpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/pickdish.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/pleasewait.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/settingpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/snf.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/stockover.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/stockr.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/stockrefailed.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/thankyoupopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/transactioncancelpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/transactionerror.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/transactionfailedpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_PuroFresh/app/src/main/res/layout/transactionnotpopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/drawable-v24/ic_baseline_arrow_forward.xml" value="0.181" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.169" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/activity_admin.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/activity_menu.xml" value="0.18" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/activity_terminal.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dialog_header_success_yellow.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dialog_header_success_yellow2.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dialog_header_success_yellow3.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dialog_header_success_yellow5.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dialog_header_success_yellow6.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dialog_header_success_yellowthankyou.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dialog_warning.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/dishreadypopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/errorfound.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/inprocesspopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/insertbottle.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/ordercompleted.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/ordernamelist.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/outofservicepopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/pairpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/pickdish.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/pleasewait.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/settingpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/snf.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/stockover.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/stockr.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/stockrefailed.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/thankyoupopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/transactioncancelpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/transactionerror.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/transactionfailedpopup.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/MD_puro/app/src/main/res/layout/transactionnotpopscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/font/convergence.xml" value="0.151171875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_admin.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_bluetooth.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_free.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_led_control2.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_menu.xml" value="0.5" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_payment.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_sliding_window.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Rc_BT_VendiBite/app/src/main/res/layout/activity_terminal.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_BT_VendiBite/app/src/main/res/layout/activity_admin.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_BT_VendiBite/app/src/main/res/layout/activity_free.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_BT_VendiBite/app/src/main/res/layout/activity_main.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_BT_VendiBite/app/src/main/res/layout/activity_menu.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_BT_VendiBite/app/src/main/res/layout/activity_payment.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_BT_VendiBite/app/src/main/res/layout/activity_terminal.xml" value="0.129296875" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_VendiBite/app/src/main/res/layout/activity_admin.xml" value="0.115234375" />
+        <entry key="..\:/Users/Dell/Desktop/Saniya/VendiBite/Sk_VendiBite/app/src/main/res/layout/activity_main.xml" value="0.115234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

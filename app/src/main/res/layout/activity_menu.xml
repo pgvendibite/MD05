@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PowderBlue">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/amaranth"
+        android:padding="10dp"
+        android:text="Please Select Menu"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+
+
+    <TextView
+        android:id="@+id/menu_home"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/Red"
+        android:fontFamily="@font/cantora_one"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+
+    <ImageView
+        android:id="@+id/company_logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/purofresh_logo" />
+
+    <LinearLayout
+        android:id="@+id/main_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearforscroll"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="250dp"
+                android:layout_height="430dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/vertical_linear1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect"
+                    android:backgroundTint="@color/AntiqueWhite"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/menu1_name"
+                        android:layout_width="170dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:text="Cow           Milk "
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/dish1_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/cow" />
+
+                    <TextView
+                        android:id="@+id/cow250_rate"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:background="@drawable/yellow"
+                        android:text="250ml  Rs 30"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="27sp" />
+
+                    <TextView
+                        android:id="@+id/cow500_rate"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:background="@drawable/yellow"
+                        android:text="500ml  Rs 50"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="27sp" />
+
+                    <TextView
+                        android:id="@+id/cow1l_rate"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/yellow"
+                        android:text="1litre  Rs 66"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="27sp" />
+
+
+
+                </LinearLayout>
+
+                <!--
+                                    <LinearLayout
+                                        android:id="@+id/hori_linear1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="60dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp">
+
+                                        <Button
+                                            android:id="@+id/dish1_miunsbtn"
+                                            android:layout_width="50dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:background="@drawable/arcleft"
+                                            android:fontFamily="@font/bell_mt"
+                                            android:gravity="center|center_horizontal"
+                                            android:text="-"
+                                            android:textColor="#2D2F31"
+                                            android:textSize="25sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/dish1_quant"
+                                            android:layout_width="60dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="10dp"
+                                            android:background="@drawable/yellow"
+                                            android:fontFamily="@font/averia_serif_libre_bold_italic"
+                                            android:gravity="center|center_horizontal"
+                                            android:text="0"
+                                            android:textColor="#2D2F31"
+                                            android:textSize="25sp"
+                                            android:textStyle="bold" />
+
+                                        <Button
+                                            android:id="@+id/dish1_addbtn"
+                                            android:layout_width="50dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="10dp"
+                                            android:background="@drawable/arc"
+                                            android:fontFamily="@font/amaranth"
+                                            android:gravity="center|center_horizontal"
+                                            android:text="+"
+                                            android:textColor="#2D2F31"
+                                            android:textSize="25sp"
+                                            android:textStyle="bold" />
+
+                                    </LinearLayout>
+                -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="250dp"
+                android:layout_height="430dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/vertical_linear2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect"
+                    android:backgroundTint="@color/AntiqueWhite"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/menu2_name"
+                        android:layout_width="170dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:text="Buffalo          Milk "
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/dish2_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/buffalo" />
+
+                    <TextView
+                        android:id="@+id/buff250_rate"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:background="@drawable/yellow"
+                        android:text="250ml  Rs 30"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="27sp" />
+
+                    <TextView
+                        android:id="@+id/buff500_rate"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:background="@drawable/yellow"
+                        android:text="500ml  Rs 50"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="27sp" />
+
+                    <TextView
+                        android:id="@+id/buff1l_rate"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/yellow"
+                        android:text="1litre  Rs 66"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="27sp" />
+                </LinearLayout>
+
+                <!--
+                                    <LinearLayout
+                                        android:id="@+id/hori_linear2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="60dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp">
+
+                                        <Button
+                                            android:id="@+id/dish2_miunsbtn"
+                                            android:layout_width="50dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:background="@drawable/arcleft"
+                                            android:fontFamily="@font/bell_mt"
+                                            android:gravity="center|center_horizontal"
+                                            android:text="-"
+                                            android:textColor="#2D2F31"
+                                            android:textSize="25sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/dish2_quant"
+                                            android:layout_width="60dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="10dp"
+                                            android:background="@drawable/yellow"
+                                            android:fontFamily="@font/averia_serif_libre_bold_italic"
+                                            android:gravity="center|center_horizontal"
+                                            android:text="0"
+                                            android:textColor="#2D2F31"
+                                            android:textSize="25sp"
+                                            android:textStyle="bold" />
+
+                                        <Button
+                                            android:id="@+id/dish2_addbtn"
+                                            android:layout_width="50dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="10dp"
+                                            android:background="@drawable/arc"
+                                            android:fontFamily="@font/amaranth"
+                                            android:gravity="center|center_horizontal"
+                                            android:text="+"
+                                            android:textColor="#2D2F31"
+                                            android:textSize="25sp"
+                                            android:textStyle="bold" />
+
+                                    </LinearLayout>
+                -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="230dp"
+                android:layout_height="430dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/vertical_linear3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect"
+                    android:backgroundTint="@color/AntiqueWhite"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/menu3stock"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/Chocolate"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/menu3_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text="Butter Milk"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/menu3quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/Chocolate"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+
+                    <ImageView
+                        android:id="@+id/dish3_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/buttermilk" />
+
+                    <TextView
+                        android:id="@+id/menu3_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:text="Rs  50"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hori_linear3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/dish3_miunsbtn"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/arcleft"
+                        android:fontFamily="@font/bell_mt"
+                        android:gravity="center|center_horizontal"
+                        android:text="-"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dish3_quant"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/yellow"
+                        android:fontFamily="@font/averia_serif_libre_bold_italic"
+                        android:gravity="center|center_horizontal"
+                        android:text="0"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/dish3_addbtn"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/arc"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center|center_horizontal"
+                        android:text="+"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="230dp"
+                android:layout_height="430dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/vertical_linear4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect"
+                    android:backgroundTint="@color/AntiqueWhite"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/menu4stock"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/Chocolate"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/menu4_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:text="Curd"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/menu4quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/Chocolate"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+                    <ImageView
+                        android:id="@+id/dish4_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/curd" />
+
+                    <TextView
+                        android:id="@+id/menu4_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:text="Rs  50"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hori_linear4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/dish4_miunsbtn"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/arcleft"
+                        android:fontFamily="@font/bell_mt"
+                        android:gravity="center|center_horizontal"
+                        android:text="-"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dish4_quant"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/yellow"
+                        android:fontFamily="@font/averia_serif_libre_bold_italic"
+                        android:gravity="center|center_horizontal"
+                        android:text="0"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/dish4_addbtn"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/arc"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center|center_horizontal"
+                        android:text="+"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="230dp"
+                android:layout_height="430dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/vertical_linear5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect"
+                    android:backgroundTint="@color/AntiqueWhite"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/menu5stock"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/Chocolate"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/menu5_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:text="Paneer"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/menu5quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/convergence"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/Chocolate"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/dish5_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/paneer" />
+
+                    <TextView
+                        android:id="@+id/menu5_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cantora_one"
+                        android:gravity="center"
+                        android:text="Rs  50"
+                        android:textColor="@color/Chocolate"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hori_linear5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/dish5_miunsbtn"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/arcleft"
+                        android:fontFamily="@font/bell_mt"
+                        android:gravity="center|center_horizontal"
+                        android:text="-"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dish5_quant"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/yellow"
+                        android:fontFamily="@font/averia_serif_libre_bold_italic"
+                        android:gravity="center|center_horizontal"
+                        android:text="0"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/dish5_addbtn"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/arc"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center|center_horizontal"
+                        android:text="+"
+                        android:textColor="#2D2F31"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/confirmlinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/total1"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center|end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|end"
+                android:text="Total Rs : "
+                android:textColor="@color/Black"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/menutotal"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|start"
+                android:text="00"
+                android:textColor="@color/Black"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="@color/LimeGreen"
+            android:fontFamily="@font/cantora_one"
+            android:gravity="center"
+            android:text="Confirm"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/dish1_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/dish2_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/dish3_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/dish4_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/dish5_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dish6_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

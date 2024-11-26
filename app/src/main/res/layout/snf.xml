@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gradient"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/cowsnf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/cowdensity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cowsnf"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/cowprotein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cowdensity"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/cowfat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cowprotein"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/buffalosnf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/buffalodensity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buffalosnf"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/buffaloprotein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buffalodensity"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/buffalofat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buffaloprotein"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@color/Black"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</RelativeLayout>

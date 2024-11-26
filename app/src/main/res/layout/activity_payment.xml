@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PowderBlue">
+
+
+    <ImageView
+        android:id="@+id/clogo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/purofresh_logo" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/amaranth"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="YOUR ORDER TOTAL IS : Rs"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/amaranth"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" "
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pointing"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/pointing" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cancel"
+        android:layout_below="@id/linear"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/pointing"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/upi_payments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pay using any UPI"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:id="@+id/linearr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/phonepay"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/phonepe" />
+
+            <ImageView
+                android:id="@+id/paytm"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/paytm" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/amazon"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/amazon" />
+
+            <ImageView
+                android:id="@+id/gpay"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/gpay" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearrrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/upi"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/upi" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cancel"
+        android:layout_below="@id/linear"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@id/pointing"
+        android:layout_toRightOf="@id/pointing"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Scan QR code"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/qr"
+            android:layout_width="400dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/status"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="@color/LimeGreen"
+            android:fontFamily="@font/cantora_one"
+            android:padding="5dp"
+            android:text="Status"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/Red"
+        android:fontFamily="@font/cantora_one"
+        android:padding="5sp"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PowderBlue"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logomain"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/purofresh_logo" />
+
+
+    <TextView
+        android:id="@+id/farmfresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logomain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/cantora_one"
+        android:text="FARM  FRESH  MILK"
+        android:textColor="@color/white"
+        android:textSize="100dp" />
+
+
+    <TextView
+        android:id="@+id/quality"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/solid_color_shape"
+        android:fontFamily="@font/cantora_one"
+        android:gravity="center"
+        android:text="MILK PARAMETERS"
+        android:textSize="25sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/order_now"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/order_btn"
+        android:visibility="visible"/>
+
+
+
+    <Button
+        android:id="@+id/freemode"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="500dp"
+        android:layout_marginRight="486dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/freeorder1"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/farmfresh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/dancingscript"
+        android:gravity="center"
+        android:text="Select Item and Pay by QR Code"
+        android:textColor="@color/Yellow"
+        android:textSize="70dp" />
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/puri_fresh" />
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/milkpng" />
+
+    <TextView
+        android:id="@+id/textViewTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:text="Multiple Serial Ports"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:scrollbars="vertical"
+        android:visibility="gone"
+
+        android:text="COM1: "
+        android:gravity="bottom" />
+
+    <TextView
+        android:id="@+id/textView222"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:layout_below="@+id/textView1"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+
+        android:text="COM2: "
+        android:scrollbars="vertical"
+        android:gravity="bottom" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView222"
+        android:visibility="gone"
+
+        android:layout_marginRight="184dp"
+        android:layout_marginTop="28dp"
+        android:ems="10">
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSend1"
+        style="?borderlessButtonStyle"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="227dp"
+        android:layout_marginRight="-175dp"
+        android:visibility="gone"
+
+        android:layout_marginTop="-48dp"
+        android:textSize="10sp"
+        android:background="@color/colorAccent"
+        android:text="Send through COM1"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginRight="184dp"
+        android:visibility="gone"
+        android:layout_marginTop="28dp"
+        android:ems="10">
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSend2"
+        style="?borderlessButtonStyle"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginLeft="227dp"
+        android:layout_marginRight="-175dp"
+        android:layout_marginTop="-48dp"
+        android:textSize="10sp"
+        android:visibility="gone"
+        android:background="@color/colorAccent"
+        android:text="Send through COM2"/>
+</RelativeLayout>
